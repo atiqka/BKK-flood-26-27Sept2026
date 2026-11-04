@@ -1,4 +1,4 @@
-### Bangkok Flood Map – 26/27 September 2026
+### BANGKOK FLOOD MAP (BMA) - 26/27 September 2026 ###
 
 Author: Atiq Kainan Ahmed. Email: atiqka@yahoo.com
 
@@ -87,10 +87,18 @@ The satellite product is dated 29 September 2026 in its file name, while the gau
 
 ## Workflow structure
 .
+
 ├── bangkok_flood_map.py
+
 ├── README.md
+
 └── (generated on first run)
+
     ├── thailand_districts.geojson
+    
     ├── EOSRS_Flood_Proxy_Map_Sep2026.zip
+    
     ├── eosrs_flood_sep2026/
+    
     └── Bangkok_Districts_Filled_by_Flood_Severity.png
+    
