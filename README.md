@@ -1,4 +1,4 @@
-### BANGKOK FLOOD MAP (BMA) - 26-27 September 2026 ###
+### BANGKOK FLOOD SEVERITY MAP (BMA districts) - 26-27 September 2026 ###
 
 Author: Atiq Kainan Ahmed. Email: atiqka@yahoo.com
 
