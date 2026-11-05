@@ -1,6 +1,7 @@
-### BANGKOK FLOOD MAP (BMA) - 26/27 September 2026 ###
+### BANGKOK FLOOD MAP (BMA) - 26-27 September 2026 ###
 
 Author: Atiq Kainan Ahmed. Email: atiqka@yahoo.com
+
 
 This Python script produces a district-level flood severity map of Bangkok for the 26-27 September 2026 flood event. It combines a high-resolution satellite flood proxy map with live river gauge data, and exports a print-ready PNG with English labels.
 
@@ -14,7 +15,7 @@ This Python script produces a district-level flood severity map of Bangkok for t
 - Plots a map with districts filled by severity, gauge stations on top, district name labels, and two legends. Saved as a 300 dpi PNG.
 
 ## Output
-The map produced out of it can be found here. https://github.com/atiqka/BKK-flood-26-27Sept2026/blob/main/BKK_flood26-27Sept2026.png
+The map output can be found here https://github.com/atiqka/BKK-flood-26-27Sept2026/blob/main/BKK_flood26-27Sept2026.png
 
 Bangkok_Districts_Filled_by_Flood_Severity.png
 
@@ -102,3 +103,14 @@ The satellite product is dated 29 September 2026 in its file name, while the gau
     
     └── Bangkok_Districts_Filled_by_Flood_Severity.png
     
+## License
+
+MIT License
+
+Copyright (c) 2026 Atiq Kainan Ahmed.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
