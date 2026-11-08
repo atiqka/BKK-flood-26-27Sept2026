@@ -15,7 +15,7 @@ This Python script produces a district-level flood severity map of Bangkok for t
 - Plots a map with districts filled by severity, gauge stations on top, district name labels, and two legends. Saved as a 300 dpi PNG.
 
 ## Output
-The map output can be found here https://github.com/atiqka/BKK-flood-26-27Sept2026/blob/main/BKK_flood26-27Sept2026.png
+The map output is placed here https://github.com/atiqka/BKK-flood-26-27Sept2026/blob/main/BKK_flood26-27Sept2026.png
 
 Bangkok_Districts_Filled_by_Flood_Severity.png
 
@@ -85,23 +85,6 @@ Flood severity is a proxy from satellite imagery. It shows the share of each dis
 The flooded-pixel rule (value > 0) assumes the raster marks water with positive values. Check the raster's documentation and adjust if needed.
 The ThaiWater API is a live service. Its endpoints, fields, or availability may change, and the script uses the last reading found for TARGET_DATE.
 The satellite product is dated 29 September 2026 in its file name, while the gauge date is 26 September. Keep this in mind when interpreting the combined map.
-
-## Workflow structure
-.
-
-├── bangkok_flood_map.py
-
-├── README.md
-
-└── (generated on first run)
-
-    ├── thailand_districts.geojson
-    
-    ├── EOSRS_Flood_Proxy_Map_Sep2026.zip
-    
-    ├── eosrs_flood_sep2026/
-    
-    └── Bangkok_Districts_Filled_by_Flood_Severity.png
     
 ## License
 
